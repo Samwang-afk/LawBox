@@ -103,6 +103,9 @@ LawBox 在复杂事项中多一步：
 简单问题不会被强行做重。LawBox 按 L0–L3 选择满足风险的最低充分推理等级。
 
 **只使用足以覆盖当前风险的最小工作流。**
+
+Skill内部使用的Gray Arch：
+
 <img width="1672" height="941" alt="图片" src="https://github.com/user-attachments/assets/33488d57-e9d9-4377-be42-3ecaca9a7f83" />
 
 ---
