@@ -2,6 +2,7 @@
 
 # LawBox
 
+<img width="2172" height="724" alt="图片" src="https://github.com/user-attachments/assets/2dba9b20-6cb5-4afc-98d4-14cb1e91d9c8" />
 
 
 ### 一个法律技能，覆盖完整法律工作流。
