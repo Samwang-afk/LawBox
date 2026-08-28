@@ -56,6 +56,10 @@ LawBox
 
 **Complexity belongs inside the system, not inside the user's head.**
 
+<div align="center">
+  <img src="assets/lawbox-skill-map.svg" alt="LawBox 58 built-in legal skills map" width="100%" />
+</div>
+
 ---
 
 ## Before trusting a conclusion, try to break it.
