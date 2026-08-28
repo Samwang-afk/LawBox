@@ -2,9 +2,9 @@
 
 <img width="2172" height="724" alt="LawBox" src="https://github.com/user-attachments/assets/2dba9b20-6cb5-4afc-98d4-14cb1e91d9c8" />
 
-<h2>一个法律技能，覆盖完整法律工作流。</h2>
+### 一个法律技能，覆盖完整法律工作流。
 
-<p>万物皆插件，越做越聪明的自我进化法律技能内核与框架。</p>
+万物皆插件，越做越聪明的自我进化法律技能内核与框架。
 
 [![核心](https://img.shields.io/badge/核心-v1.0.0-7f1d1d)](#)
 [![法律技能](https://img.shields.io/badge/法律技能-58-374151)](#)
@@ -12,26 +12,26 @@
 
 </div>
 
-<p align="center"><strong>LawBox 不教 AI“像律师一样说话”，而是让智能体按法律工作的方式做事。</strong></p>
+> **LawBox 不教 AI“像律师一样说话”，而是让智能体按法律工作的方式做事。**
 
-<p align="center">AI 已经会写合同、总结案情、找法条、生成文书。</p>
+AI 已经会写合同、总结案情、找法条、生成文书。
 
-<p align="center">它需要一个稳定事实、主动找反例、为置信度打分的推理框架（xLudus Agent）。</p>
+它需要一个稳定事实、主动找反例、为置信度打分的推理框架（xLudus Agent）。
 
-<p align="center">LawBox 解决的不是“让答案更像律师”。</p>
+LawBox 解决的不是“让答案更像律师”。
 
-<p align="center">它把法律工作中最容易被模型跳过的部分——<strong>澄清、事实状态、法律核验、反向复核、授权边界与交付质量</strong>——变成智能体可以执行的工作协议。</p>
+它把法律工作中最容易被模型跳过的部分——**澄清、事实状态、法律核验、反向复核、授权边界与交付质量**——变成智能体可以执行的工作协议。
 
-<p align="center"><strong>内置 58 个技能，可以随意添加，而不与 SOP 冲突。</strong><br>
-<strong>LawBox 负责把工作跑起来。</strong><br>
-<strong>Ludus 负责挑战结论和自我进化。</strong><br>
-<strong>其余一切，皆为插件。</strong></p>
+**内置 58 个技能，可以随意添加，而不与 SOP 冲突。**  
+**LawBox 负责把工作跑起来。**  
+**Ludus 负责挑战结论和自我进化。**  
+**其余一切，皆为插件。**
 
 ---
 
-<h1 align="center">一个法律技能，就够了</h1>
+## 一个法律技能，就够了
 
-<p align="center">你不应该先学习几十个技能，再决定该调用哪一个。</p>
+你不应该先学习几十个技能，再决定该调用哪一个。
 
 ```text
 你
@@ -51,14 +51,14 @@ LawBox
 法律工作成果
 ```
 
-<p align="center">仓库根目录 <a href="SKILL.md"><code>SKILL.md</code></a> 提供统一入口；<a href="skills/legal/法律工作总控/SKILL.md">法律工作总控</a> 负责路由与共享协议。</p>
+仓库根目录 [`SKILL.md`](SKILL.md) 提供统一入口；[`法律工作总控`](skills/legal/法律工作总控/SKILL.md) 负责路由与共享协议。
 
-<p align="center"><strong>复杂性应该留在系统内部，而不是留给使用者。</strong></p>
+**复杂性应该留在系统内部，而不是留给使用者。**
 
-<h2 align="center">58 个内置技能</h2>
+### 58 个内置技能
 
 | 01–10 | 11–20 | 21–30 | 31–40 | 41–50 | 51–58 |
-| :---: | :---: | :---: | :---: | :---: | :---: |
+| --- | --- | --- | --- | --- | --- |
 | 法律工作总控 | 立案管理 | 案件沟通记录 | 简易速裁程序 | 产品法务 | 破产清算 |
 | 法律文书出稿前审查 | 诉讼文书起草 | 案件讨论与提纲 | 特殊程序 | 广告合规审核 | 破产和解程序 |
 | 法律文书模板与导出 | 调查取证与证据管理 | 刑事辩护总调度 | 劳动争议诉讼 | 预包装食品标签合规 | 破产法律分析 |
@@ -72,44 +72,44 @@ LawBox
 
 ---
 
-<h1 align="center">在相信一个结论之前，先尝试推翻它</h1>
+## 在相信一个结论之前，先尝试推翻它
 
-<p align="center">普通智能体往往是：</p>
+普通智能体往往是：
 
 ```text
 问题 → 推理 → 答案
 ```
 
-<p align="center">LawBox 在复杂事项中多一步：</p>
+LawBox 在复杂事项中多一步：
 
 ```text
 问题 → 推理 → 反向复核 → 裁决 → 起草
 ```
 
-<p align="center">这来自 LawBox 中的轻量 <strong>Ludus 对抗式复核</strong>。</p>
+这来自 LawBox 中的轻量 **Ludus 对抗式复核**。
 
-<p align="center">它不是为了机械生成“正方 / 反方”，也不是多智能体表演。</p>
+它不是为了机械生成“正方 / 反方”，也不是多智能体表演。
 
-<p align="center">它只做一件事：<strong>证伪</strong>。</p>
+它只做一件事：**证伪**。
 
-<p align="center">用户对法律关系的命名可能错吗？<br>
-有没有另一套合理事实解释？<br>
-对方最强的抗辩是什么？<br>
-哪个事实、证据或法律要件一旦失败，结论就会倒塌？</p>
+> 用户对法律关系的命名可能错吗？  
+> 有没有另一套合理事实解释？  
+> 对方最强的抗辩是什么？  
+> 哪个事实、证据或法律要件一旦失败，结论就会倒塌？
 
-<p align="center">复核最终要找到具体的<strong>最小失败条件集合</strong>，而不是一句“仍存在一定风险”。</p>
+复核最终要找到具体的**最小失败条件集合**，而不是一句“仍存在一定风险”。
 
-<p align="center">简单问题不会被强行做重。LawBox 按 L0–L3 选择满足风险的最低充分推理等级。</p>
+简单问题不会被强行做重。LawBox 按 L0–L3 选择满足风险的最低充分推理等级。
 
-<p align="center"><strong>只使用足以覆盖当前风险的最小工作流。</strong></p>
+**只使用足以覆盖当前风险的最小工作流。**
 
 ---
 
-<h1 align="center">万物皆插件</h1>
+## 万物皆插件
 
-<p align="center">核心负责“法律工作应该如何被完成”。</p>
+核心负责“法律工作应该如何被完成”。
 
-<p align="center">专业领域负责“系统拥有什么专业能力”。</p>
+专业领域负责“系统拥有什么专业能力”。
 
 ```text
 LawBox 核心
@@ -119,40 +119,40 @@ LawBox 核心
     └── 你的律所插件包
 ```
 
-<p align="center">领域插件包可以挂载新的专业技能，并继承总控的澄清、复核、授权、生命周期与交付规则。</p>
+领域插件包可以挂载新的专业技能，并继承总控的澄清、复核、授权、生命周期与交付规则。
 
-<p align="center">仓库已提供 <a href="packs/ip-law/"><code>packs/ip-law/</code></a> 作为插件包结构示例；当前仅为骨架，不包含完整知识产权法律内容。</p>
+仓库已提供 [`packs/ip-law/`](packs/ip-law/) 作为插件包结构示例；当前仅为骨架，不包含完整知识产权法律内容。
 
-<p align="center">这意味着未来可以把律所自己的标准流程、模板、审查方法与专业经验放进插件包，而不是不断侵入核心。</p>
+这意味着未来可以把律所自己的标准流程、模板、审查方法与专业经验放进插件包，而不是不断侵入核心。
 
-<p align="center"><strong>核心定义方法，插件带来专业能力。</strong></p>
+**核心定义方法，插件带来专业能力。**
 
 ---
 
-<h1 align="center">实际使用是什么感觉</h1>
+## 实际使用是什么感觉
 
-<h2 align="center">诉讼</h2>
+### 诉讼
 
 ```text
 “这是客户发来的微信、借条和转账记录。
 帮我判断现在起诉最大的风险是什么。”
 ```
 
-<p align="center">LawBox 不会直接给一个胜诉率。</p>
+LawBox 不会直接给一个胜诉率。
 
-<p align="center">它会先区分已确认事实、当事人陈述、争议事实与未知信息，再检查证据、法律关系与请求权基础；如果属于复杂事项，再主动寻找最可能推翻当前判断的路径。</p>
+它会先区分已确认事实、当事人陈述、争议事实与未知信息，再检查证据、法律关系与请求权基础；如果属于复杂事项，再主动寻找最可能推翻当前判断的路径。
 
-<h2 align="center">合同审查</h2>
+### 合同审查
 
 ```text
 “我是乙方，帮我审这份 SaaS 服务合同。”
 ```
 
-<p align="center">LawBox 先确认立场，再进入专业合同审查；需要正式 Word 交付时，继续经过预审、导出与质量检查，而不是把“内容生成完成”当作“法律工作完成”。</p>
+LawBox 先确认立场，再进入专业合同审查；需要正式 Word 交付时，继续经过预审、导出与质量检查，而不是把“内容生成完成”当作“法律工作完成”。
 
 ---
 
-<h1 align="center">架构</h1>
+## 架构
 
 ```text
 用户
@@ -173,9 +173,9 @@ LawBox / 法律工作操作系统
 法律工作成果
 ```
 
-<p align="center">关键协议位于 <a href="skills/legal/法律工作总控/references/"><code>skills/legal/法律工作总控/references/</code></a>。</p>
+关键协议位于 [`skills/legal/法律工作总控/references/`](skills/legal/法律工作总控/references/)。
 
-<p align="center">测试入口：</p>
+测试入口：
 
 ```bash
 python tests/run_all_tests.py
@@ -183,23 +183,23 @@ python tests/run_all_tests.py
 
 ---
 
-<h1 align="center">安装</h1>
+## 安装
 
 ```bash
 git clone https://github.com/Samwang-afk/LawBox.git
 ```
 
-<p align="center">将 <code>skills/legal/</code> 接入支持本地 Markdown 技能的智能体环境，或使用仓库中的 <code>.codex-plugin/plugin.json</code>。</p>
+将 `skills/legal/` 接入支持本地 Markdown 技能的智能体环境，或使用仓库中的 `.codex-plugin/plugin.json`。
 
-<p align="center">然后直接描述你的法律任务。</p>
+然后直接描述你的法律任务。
 
-<p align="center">不是：</p>
+不是：
 
 ```text
 “我要先调用哪个技能？”
 ```
 
-<p align="center">而是：</p>
+而是：
 
 ```text
 “帮我处理这个案子。”
@@ -207,26 +207,26 @@ git clone https://github.com/Samwang-afk/LawBox.git
 
 ---
 
-<h1 align="center">专业边界</h1>
+## 专业边界
 
-<p align="center">LawBox 是法律工作辅助系统，不是“AI 律师”。</p>
+LawBox 是法律工作辅助系统，不是“AI 律师”。
 
-<p align="center">真实法律事项仍需要律师、法务或具备相应资格的专业人士完成事实判断、来源核验、策略选择、客户授权与最终文本复核。组织级利益冲突检索、商业数据库、外部系统写入等能力如果没有真实连接，LawBox 会明确标记未执行，而不是假装完成。</p>
+真实法律事项仍需要律师、法务或具备相应资格的专业人士完成事实判断、来源核验、策略选择、客户授权与最终文本复核。组织级利益冲突检索、商业数据库、外部系统写入等能力如果没有真实连接，LawBox 会明确标记未执行，而不是假装完成。
 
 ---
 
-<h1 align="center">许可与归属</h1>
+## 许可与归属
 
-<p align="center">当前项目维护者拥有版权的新创作内容采用 <a href="LICENSE">PolyForm Noncommercial License 1.0.0</a>。</p>
+当前项目维护者拥有版权的新创作内容采用 [PolyForm Noncommercial License 1.0.0](LICENSE)。
 
-<p align="center">本项目包含或衍生自 <a href="https://github.com/pa1nrui1/legal-skills"><code>pa1nrui1/legal-skills</code></a> 的 MIT 授权内容；相关上游权利、中间分支必要声明与其他第三方说明见 <a href="THIRD_PARTY_NOTICES.md"><code>THIRD_PARTY_NOTICES.md</code></a> 和 <a href="LICENSES/"><code>LICENSES/</code></a>。</p>
+本项目包含或衍生自 [`pa1nrui1/legal-skills`](https://github.com/pa1nrui1/legal-skills) 的 MIT 授权内容；相关上游权利、中间分支必要声明与其他第三方说明见 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) 和 [`LICENSES/`](LICENSES/)。
 
 ---
 
 <div align="center">
 
-<h3>LawBox 负责把工作跑起来。</h3>
-<h3>Ludus 负责挑战结论。</h3>
-<h3>其余一切，皆可插件化。</h3>
+**LawBox 负责把工作跑起来。**  
+**Ludus 负责挑战结论。**  
+**其余一切，皆可插件化。**
 
 </div>
