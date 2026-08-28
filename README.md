@@ -2,19 +2,19 @@
 
 # LawBox
 
-### One Legal Skill. The whole legal workflow.
+### 一个法律技能，覆盖完整法律工作流。
 
-**A Legal Work OS for AI Agents.**
+**面向 AI 智能体的法律工作操作系统。**
 
-万物皆插件，越做越聪明的自我进化法律skill内核&框架
+万物皆插件，越做越聪明的自我进化法律技能内核与框架。
 
-[![Core](https://img.shields.io/badge/Core-v1.0.0-7f1d1d)](#)
-[![Legal Skills](https://img.shields.io/badge/Legal%20Skills-58-374151)](#)
-[![License](https://img.shields.io/badge/License-PolyForm%20NC%201.0.0-374151)](LICENSE)
+[![核心](https://img.shields.io/badge/核心-v1.0.0-7f1d1d)](#)
+[![法律技能](https://img.shields.io/badge/法律技能-58-374151)](#)
+[![许可](https://img.shields.io/badge/许可-PolyForm%20NC%201.0.0-374151)](LICENSE)
 
 </div>
 
-> **LawBox doesn't teach AI to sound like a lawyer. It gives Agents a legal way of working.**
+> **LawBox 不教 AI“像律师一样说话”，而是让智能体按法律工作的方式做事。**
 
 AI 已经会写合同、总结案情、找法条、生成文书。
 
@@ -24,15 +24,15 @@ AI 已经会写合同、总结案情、找法条、生成文书。
 
 LawBox 解决的不是“让答案更像律师”。
 
-它把法律工作中最容易被模型跳过的部分——**澄清、事实状态、法律核验、反向复核、授权边界与交付质量**——变成 Agent 可以执行的工作协议。
+它把法律工作中最容易被模型跳过的部分——**澄清、事实状态、法律核验、反向复核、授权边界与交付质量**——变成智能体可以执行的工作协议。
 
-**58 skills inside. One interface outside.**
+**内置 58 个技能，对外只有一个入口。**
 
 ---
 
-## One Legal Skill is enough.
+## 一个法律技能，就够了
 
-你不应该先学习几十个 Skill，再决定该调用哪一个。
+你不应该先学习几十个技能，再决定该调用哪一个。
 
 ```text
 你
@@ -43,9 +43,9 @@ LawBox
 ├─ 理解任务
 ├─ 判断风险与所需推理深度
 ├─ 只追问真正会改变结论的问题
-├─ 路由专业 Legal Skills
+├─ 路由专业法律技能
 ├─ 核验关键法律来源
-├─ Challenge 当前结论
+├─ 反向复核当前结论
 └─ 控制正式交付与外部动作
 │
 ▼
@@ -54,9 +54,9 @@ LawBox
 
 仓库根目录 [`SKILL.md`](SKILL.md) 提供统一入口；[`法律工作总控`](skills/legal/法律工作总控/SKILL.md) 负责路由与共享协议。
 
-**Complexity belongs inside the system, not inside the user's head.**
+**复杂性应该留在系统内部，而不是留给使用者。**
 
-### 58 built-in skills
+### 58 个内置技能
 
 | 01–10 | 11–20 | 21–30 | 31–40 | 41–50 | 51–58 |
 | --- | --- | --- | --- | --- | --- |
@@ -66,73 +66,73 @@ LawBox
 | 案件材料生成专业文档 | 庭前准备 | 案件承接与委托 | 劳动争议仲裁程序管理 | 监管合规监测 | 破产文书生成 |
 | 法律咨询助手 | 庭审与庭后工作 | 侦查阶段辩护 | 劳动争议证据体系 | 破产申请与受理 | 审理报告 |
 | 初步法律分析 | 调解与和解 | 审查起诉阶段辩护 | 劳动关系认定与经济补偿计算 | 管理人工作 | 民事判决书 |
-| 法规案例检索 | 结案归档 | 一审阶段辩护 | 用人单位劳动合规 | 债权申报与审查 | law-to-markdown |
-| 法律Wiki知识库查询 | 诉讼案件管理 | 二审阶段辩护 | 合同审查 | 债权人会议 | 微信文章转换为markdown |
-| 法律文章去AI味道 | 诉讼分析工具 | 未成年人案件 | 合同起草 | 财产调查与管理 |  |
+| 法规案例检索 | 结案归档 | 一审阶段辩护 | 用人单位劳动合规 | 债权申报与审查 | 法律文本转 Markdown |
+| 法律 Wiki 知识库查询 | 诉讼案件管理 | 二审阶段辩护 | 合同审查 | 债权人会议 | 微信文章转 Markdown |
+| 法律文章去 AI 味道 | 诉讼分析工具 | 未成年人案件 | 合同起草 | 财产调查与管理 |  |
 | 民事一审诉讼 | 诉讼可视化 | 死刑案件 | 委托合同管理 | 重整程序 |  |
 
 ---
 
-## Before trusting a conclusion, try to break it.
+## 在相信一个结论之前，先尝试推翻它
 
-普通 Agent 往往是：
+普通智能体往往是：
 
 ```text
-Question → Reason → Answer
+问题 → 推理 → 答案
 ```
 
 LawBox 在复杂事项中多一步：
 
 ```text
-Question → Reason → Challenge → Judgment → Draft
+问题 → 推理 → 反向复核 → 裁决 → 起草
 ```
 
-这来自 LawBox 中的轻量 **Ludus Adversarial Review**。
+这来自 LawBox 中的轻量 **Ludus 对抗式复核**。
 
-它不是为了机械生成“正方 / 反方”，也不是 Multi-Agent 表演。
+它不是为了机械生成“正方 / 反方”，也不是多智能体表演。
 
-它只做一件事：**falsification**。
+它只做一件事：**证伪**。
 
 > 用户对法律关系的命名可能错吗？  
 > 有没有另一套合理事实解释？  
 > 对方最强的抗辩是什么？  
 > 哪个事实、证据或法律要件一旦失败，结论就会倒塌？
 
-复核最终要找到具体的 **Minimum Failure Set**，而不是一句“仍存在一定风险”。
+复核最终要找到具体的**最小失败条件集合**，而不是一句“仍存在一定风险”。
 
 简单问题不会被强行做重。LawBox 按 L0–L3 选择满足风险的最低充分推理等级。
 
-**Use the smallest workflow that is sufficient for the risk.**
+**只使用足以覆盖当前风险的最小工作流。**
 
 ---
 
-## Everything is a Plugin.
+## 万物皆插件
 
-Core 负责“法律工作应该如何被完成”。
+核心负责“法律工作应该如何被完成”。
 
-专业领域负责“你拥有什么专业能力”。
+专业领域负责“系统拥有什么专业能力”。
 
 ```text
-LawBox Core
+LawBox 核心
     │
-    ├── built-in legal skills
-    ├── Domain Packs
-    └── Your Firm Pack
+    ├── 内置法律技能
+    ├── 领域插件包
+    └── 你的律所插件包
 ```
 
-Domain Pack 可以挂载新的专业 Skill，并继承总控的 clarification、review、approval、lifecycle 与 delivery rules。
+领域插件包可以挂载新的专业技能，并继承总控的澄清、复核、授权、生命周期与交付规则。
 
-仓库已提供 [`packs/ip-law/`](packs/ip-law/) 作为 Pack 结构示例；当前仅为 skeleton，不包含完整 IP 法律内容。
+仓库已提供 [`packs/ip-law/`](packs/ip-law/) 作为插件包结构示例；当前仅为骨架，不包含完整知识产权法律内容。
 
-这意味着未来可以把律所自己的 SOP、模板、审查方法与专业 know-how 放进 Pack，而不是不断侵入 Core。
+这意味着未来可以把律所自己的标准流程、模板、审查方法与专业经验放进插件包，而不是不断侵入核心。
 
-**Core defines the method. Plugins bring the expertise.**
+**核心定义方法，插件带来专业能力。**
 
 ---
 
-## What it feels like
+## 实际使用是什么感觉
 
-### Litigation
+### 诉讼
 
 ```text
 “这是客户发来的微信、借条和转账记录。
@@ -143,7 +143,7 @@ LawBox 不会直接给一个胜诉率。
 
 它会先区分已确认事实、当事人陈述、争议事实与未知信息，再检查证据、法律关系与请求权基础；如果属于复杂事项，再主动寻找最可能推翻当前判断的路径。
 
-### Contract Review
+### 合同审查
 
 ```text
 “我是乙方，帮我审这份 SaaS 服务合同。”
@@ -153,25 +153,25 @@ LawBox 先确认立场，再进入专业合同审查；需要正式 Word 交付�
 
 ---
 
-## Architecture
+## 架构
 
 ```text
-User
+用户
  │
  ▼
-LawBox / Legal Work OS
+LawBox / 法律工作操作系统
  │
- ├─ Routing
- ├─ Matter & Fact Model
- ├─ Clarification
- ├─ Legal Verification
- ├─ Professional Skills
- ├─ Ludus Review
- ├─ Approval Gate
- └─ Delivery QC
+ ├─ 任务路由
+ ├─ 事项与事实模型
+ ├─ 最小必要澄清
+ ├─ 法律来源核验
+ ├─ 专业法律技能
+ ├─ Ludus 反向复核
+ ├─ 授权门
+ └─ 交付质检
  │
  ▼
-Deliverable
+法律工作成果
 ```
 
 关键协议位于 [`skills/legal/法律工作总控/references/`](skills/legal/法律工作总控/references/)。
@@ -184,20 +184,20 @@ python tests/run_all_tests.py
 
 ---
 
-## Install
+## 安装
 
 ```bash
 git clone https://github.com/Samwang-afk/LawBox.git
 ```
 
-将 `skills/legal/` 接入支持本地 Markdown Skill 的 Agent 环境，或使用仓库中的 `.codex-plugin/plugin.json`。
+将 `skills/legal/` 接入支持本地 Markdown 技能的智能体环境，或使用仓库中的 `.codex-plugin/plugin.json`。
 
 然后直接描述你的法律任务。
 
 不是：
 
 ```text
-“我要先调用哪个 Skill？”
+“我要先调用哪个技能？”
 ```
 
 而是：
@@ -208,7 +208,7 @@ git clone https://github.com/Samwang-afk/LawBox.git
 
 ---
 
-## Professional boundary
+## 专业边界
 
 LawBox 是法律工作辅助系统，不是“AI 律师”。
 
@@ -216,18 +216,18 @@ LawBox 是法律工作辅助系统，不是“AI 律师”。
 
 ---
 
-## License & attribution
+## 许可与归属
 
 当前项目维护者拥有版权的新创作内容采用 [PolyForm Noncommercial License 1.0.0](LICENSE)。
 
-本项目包含或衍生自 [`pa1nrui1/legal-skills`](https://github.com/pa1nrui1/legal-skills) 的 MIT 授权内容；相关上游权利、Intermediate Fork Required Notice 与其他第三方说明见 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) 和 [`LICENSES/`](LICENSES/)。
+本项目包含或衍生自 [`pa1nrui1/legal-skills`](https://github.com/pa1nrui1/legal-skills) 的 MIT 授权内容；相关上游权利、中间分支必要声明与其他第三方说明见 [`THIRD_PARTY_NOTICES.md`](THIRD_PARTY_NOTICES.md) 和 [`LICENSES/`](LICENSES/)。
 
 ---
 
 <div align="center">
 
-**LawBox runs the work.**  
-**Ludus challenges the conclusion.**  
-**Everything else is a plugin.**
+**LawBox 负责把工作跑起来。**  
+**Ludus 负责挑战结论。**  
+**其余一切，皆可插件化。**
 
 </div>
