@@ -107,6 +107,16 @@ Ludus 是轻量推理增强，不是新的 Agent Framework 依赖，也不是独
 
 完整说明见各 Skill 的 `SKILL.md` 与 `references/`。
 
+### Domain Packs（万物皆插件）
+
+专业领域扩展（IP、M&A、税务、证券、数据隐私等）以 **Domain Pack** 形式挂载到 `packs/`，不修改 Core：
+
+- 安装 = 放入目录 + 把 `routes` 追加到总控 routing-map（写入前需用户确认）；
+- pack 内 Skill 自动继承总控全部共享协议（澄清 / 反向复核 / 授权 / 生命周期 / 反思 / 交付门），只写专业内容；
+- 卸载 = 删除目录 + 移除路由条目，无其他耦合。
+
+约定见 `skills/legal/法律工作总控/references/sop-contract.md`；仓库内置 `packs/ip-law/` 示例骨架。
+
 ## 典型工作流
 
 ### 案件材料分析
@@ -200,6 +210,7 @@ git clone <your-remote>/legal-work-os-core.git
 │   ├── 诉讼文书起草/ 调查取证与证据管理/
 │   ├── 法律文书出稿前审查/ 法律文书模板与导出/
 │   └── ...（共 58 个专业 Skill）
+├── packs/                  # Domain Packs（IP/M&A/税务等扩展，示例：ip-law）
 ├── tests/
 ├── assets/
 └── .codex-plugin/

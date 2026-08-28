@@ -1,0 +1,15 @@
+{
+  "id": "ip-law",
+  "name": "知识产权 Domain Pack（示例骨架）",
+  "version": "0.1.0",
+  "status": "skeleton",
+  "description": "IP 领域扩展包骨架：商标/专利/著作权/商业秘密的检索、审查、诉讼与合规专业内容。安装后按 skills 目录添加专业 Skill，并把 routes 挂载到法律工作总控 routing-map。",
+  "skills_dir": "./skills",
+  "routes": [
+    {
+      "keywords": ["商标侵权", "专利无效", "著作权纠纷", "商业秘密", "IP授权"],
+      "target": "skills/ip-legal-analysis/SKILL.md",
+      "example": true
+    }
+  ]
+}

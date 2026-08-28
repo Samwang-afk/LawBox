@@ -437,6 +437,22 @@ class Case12RepoStructure(unittest.TestCase):
         for s in ["WHEN", "INPUT", "DO", "DECIDE", "APPROVE", "OUTPUT", "CLOSE"]:
             self.assertIn(s, text)
 
+    def test_pack_convention_documented(self):
+        text = ref("sop-contract.md")
+        self.assertIn("Domain Pack 挂载约定", text)
+        self.assertIn("packs/", text)
+        self.assertIn("routing-map.md", text)
+        self.assertIn("不是新框架", text)
+
+    def test_example_pack_manifest_valid(self):
+        pack = REPO / "packs" / "ip-law" / "pack.json"
+        self.assertTrue(pack.exists())
+        data = json.loads(read(pack))
+        for key in ["id", "name", "version", "description", "skills_dir", "routes"]:
+            self.assertIn(key, data)
+        self.assertEqual(data["id"], "ip-law")
+        self.assertTrue((REPO / "packs" / "ip-law" / "README.md").exists())
+
     def test_no_established_naming_remains(self):
         for p in [RC_SCRIPT, REFS / "matter-model-protocol.md", REFS / "judgment-protocol.md"]:
             text = read(p)

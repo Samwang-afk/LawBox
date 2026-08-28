@@ -31,3 +31,14 @@ CLOSE    什么时候算完成？
 - 总控共享协议回答横向问题：是否应该做（Clarification / Conflict）、有没有想错（Ludus Review）、能不能执行（Action Gate）、什么时候完成（Lifecycle）。
 - 专业 SOP 只回答"这类法律工作具体怎么做"。
 - 专业 SOP 不得自行重新实现 Clarification、Conflict、Adversarial Review、Reflection、Approval 等总控协议。
+
+## Domain Pack 挂载约定（万物皆插件）
+
+专业领域扩展（IP、M&A、税务、证券、数据隐私等）以 Domain Pack 形式挂载，不修改 Core：
+
+- 位置：`packs/<pack-id>/`，自带 `pack.json` 清单与 `skills/` 目录。
+- 清单最小字段：`id / name / version / description / skills_dir / routes`。
+- 安装：把 pack 目录放入 `packs/`，将其 `routes` 追加到总控 `routing-map.md`（写入前需用户确认）。
+- 启用规则：pack 内 Skill 自动继承总控全部共享协议（澄清、复核、授权、生命周期、反思、交付门）；pack 只写专业内容，不得重新实现总控协议。
+- 卸载：删除目录并移除对应路由条目。
+- Core 不包含 pack 运行时加载器；pack 是"目录 + 清单 + 路由条目"的约定，不是新框架。
