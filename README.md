@@ -1,7 +1,8 @@
 <div align="center">
 
 # LawBox
-![Uploading 图片.png…]()
+<img width="2048" height="682" alt="图片" src="https://github.com/user-attachments/assets/e1af7c4e-3827-4331-aadc-d0ca8f76c3ed" />
+
 
 ### 一个法律技能，覆盖完整法律工作流。
 
