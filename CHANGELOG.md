@@ -26,7 +26,7 @@ Legal Work OS Core（法律百宝箱 Core v1）首次发布。本项目是在上
 - 总控工作流重构：简单任务保持简单（L0 直接回答），复杂事项才走澄清/复核/审批。
 - 对抗审议协议合并为 `adversarial-review-protocol.md`（轻量反向复核）。
 - 认知状态命名 ESTABLISHED → CONFIRMED（协议、脚本、测试同步更新）。
-- 每个 Skill 启动声明精简为法律工作辅助声明，许可证信息不再随任务刷屏。
+- 每个 Skill 的品牌声明块全部剥离；总控启动声明保留 Ludus Agent 叙事与作者/许可归属（上游 MIT + PolyForm Noncommercial），不再逐次刷屏许可证全文。
 
 ### 许可证
 

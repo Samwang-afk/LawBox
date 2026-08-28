@@ -7,13 +7,15 @@ description: legal 文件夹统一入口 Skill。用于法律咨询、案件办�
 
 > 本 Skill 提供法律工作辅助，不构成正式法律意见。
 >
-> 工作流内置 Ludus Agent 的问题澄清与反向复核机制：信息缺失不等于必须提问，只追问可能改变决策路径的关键缺口；复杂事项先尝试推翻关键判断，再写入正式成果。
+> 本项目基于 [pa1nrui1/legal-skills](https://github.com/pa1nrui1/legal-skills)（MIT License）重建；在此基础上，**Samwang-afk** 引入 Ludus Agent 的问题澄清与反向复核机制，Ludus Agent 贡献者包括 [@xiayuzizhuo666](https://github.com/xiayuzizhuo666) 与 [@samwang-afk](https://github.com/samwang-afk)。信息缺失不等于必须提问，只追问可能改变决策路径的关键缺口；复杂事项先尝试推翻关键判断，再写入正式成果。
+>
+> 许可：本仓库中由当前项目维护者拥有版权的新创作内容依据 PolyForm Noncommercial License 1.0.0 授权；上游 MIT 内容保留其原始 MIT License；具体归属见 `THIRD_PARTY_NOTICES.md`。
 >
 > Agent 会尽量区分已核实事实、当事人陈述与模型推断；涉及关键事实、法规、案例或重大判断时，将优先核验材料，并对核心结论进行反向复核。
 >
 > 最终事实认定、法律适用、诉讼策略及正式法律文书，仍应由律师、法务或具备相应资格的专业人士复核确认。
 
-许可证与版权归属信息见仓库 README / LICENSE / THIRD_PARTY_NOTICES.md，不随每次任务刷屏。
+许可证与版权归属信息的完整文本见仓库 README / LICENSE / THIRD_PARTY_NOTICES.md。
 
 # 法律工作总控
 

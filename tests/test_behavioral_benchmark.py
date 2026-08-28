@@ -391,7 +391,11 @@ class Case12RepoStructure(unittest.TestCase):
             "xiayuzizhuo": re.compile(r"xiayuzizhuo", re.I),
             "ludus_closed_framework": re.compile(r"Ludus Agent 为独立开发的闭源框架"),
         }
-        allowed_files = {"THIRD_PARTY_NOTICES.md", "LICENSES/upstream-MIT.txt"}
+        allowed_files = {
+            "THIRD_PARTY_NOTICES.md",
+            "LICENSES/upstream-MIT.txt",
+            "skills/legal/法律工作总控/SKILL.md",  # 总控声明保留作者与许可归属
+        }
         for p in REPO.rglob("*"):
             if not p.is_file() or p.name in {".gitignore"}:
                 continue
@@ -448,10 +452,15 @@ class Case12RepoStructure(unittest.TestCase):
     def test_router_declaration_is_clean(self):
         text = router_text()
         self.assertIn("本 Skill 提供法律工作辅助，不构成正式法律意见", text)
-        self.assertNotIn("Samwang", text)
+        self.assertIn("Ludus Agent 的问题澄清与反向复核机制", text)
+        self.assertIn("PolyForm Noncommercial License 1.0.0", text)
+        self.assertIn("THIRD_PARTY_NOTICES.md", text)
+        self.assertNotIn("Ludus Agent 为独立开发的闭源框架", text)
 
     def test_subskill_skills_have_no_branding_declaration(self):
         for sk in (REPO / "skills" / "legal").glob("*/SKILL.md"):
+            if sk.name == "SKILL.md" and "法律工作总控" in str(sk):
+                continue  # 总控声明保留作者与许可归属，单独由 test_router_declaration_is_clean 检查
             text = read(sk)
             self.assertNotIn("Samwang-afk", text, sk.name)
             self.assertNotIn("xiayuzizhuo", text, sk.name)
