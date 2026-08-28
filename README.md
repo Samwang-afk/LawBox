@@ -153,7 +153,7 @@ Ludus 是轻量推理增强，不是新的 Agent Framework 依赖，也不是独
 ## 安装
 
 ```bash
-git clone <your-remote>/legal-work-os-core.git
+git clone https://github.com/Samwang-afk/LawBox.git
 ```
 
 将 `skills/legal/` 复制到你的 Agent 平台支持的 skills 目录，或通过平台插件机制安装（`.codex-plugin/plugin.json`）。

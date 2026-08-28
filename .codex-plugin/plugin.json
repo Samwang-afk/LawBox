@@ -5,7 +5,7 @@
   "author": {
     "name": "Legal Work OS Core Contributors"
   },
-  "repository": "https://github.com/<YOUR_GITHUB>/legal-work-os-core",
+  "repository": "https://github.com/Samwang-afk/LawBox",
   "license": "SEE LICENSE",
   "keywords": [
     "legal",
@@ -27,7 +27,7 @@
     "developerName": "Legal Work OS Core Contributors",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
-    "websiteURL": "https://github.com/<YOUR_GITHUB>/legal-work-os-core",
+    "websiteURL": "https://github.com/Samwang-afk/LawBox",
     "defaultPrompt": [
       "法律工作总控 帮我路由这个法律任务",
       "合同审查 审核这份合同并输出风险清单",
