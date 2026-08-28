@@ -1,7 +1,7 @@
 {
   "name": "legal-work-os-core",
-  "version": "1.0.0",
-  "description": "Legal Work OS Core (法律百宝箱 Core): modular Chinese legal workflow skills with lightweight Ludus adversarial review and unified SOP control.",
+  "version": "1.0.1",
+  "description": "LawBox：一个对外入口，内部路由完整中国法律工作流，并以 Ludus 反向复核和统一 SOP 控制关键判断与交付。",
   "author": {
     "name": "Legal Work OS Core Contributors"
   },
@@ -19,19 +19,19 @@
     "ludus-review",
     "legal-work-os"
   ],
-  "skills": "./skills/",
+  "skills": "./plugin-skills/",
   "interface": {
-    "displayName": "Legal Work OS Core（法律百宝箱 Core）",
-    "shortDescription": "Modular Chinese legal workflow skills with lightweight reasoning review",
-    "longDescription": "A modular Legal Work OS for Chinese legal work: professional legal skills execute the work, Ludus adversarial review stress-tests key judgments, unified SOP control manages the task lifecycle, and post-task reflection captures reusable failure lessons.",
+    "displayName": "LawBox（Legal Work OS Core）",
+    "shortDescription": "一个入口，路由完整法律工作流",
+    "longDescription": "LawBox 对外只暴露一个法律工作入口。内部法律技能由总控按任务语义路由；统一执行最小必要澄清、来源核验、Ludus 反向复核、授权门与交付质检，并在任务后沉淀可复用失败经验。",
     "developerName": "Legal Work OS Core Contributors",
     "category": "Productivity",
     "capabilities": ["Read", "Write"],
     "websiteURL": "https://github.com/Samwang-afk/LawBox",
     "defaultPrompt": [
-      "法律工作总控 帮我路由这个法律任务",
-      "合同审查 审核这份合同并输出风险清单",
-      "法律咨询助手 帮我回复这个客户咨询"
+      "帮我处理这个法律事项",
+      "审核这份合同并指出关键风险",
+      "阅读这些案件材料并告诉我下一步怎么做"
     ],
     "brandColor": "#7f1d1d"
   }
