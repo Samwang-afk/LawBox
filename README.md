@@ -6,7 +6,7 @@
 
 **A Legal Work OS for AI Agents.**
 
-法律 Skill，一个就够了。
+万物皆插件，越做越聪明的自我进化法律skill内核&框架
 
 [![Core](https://img.shields.io/badge/Core-v1.0.0-7f1d1d)](#)
 [![Legal Skills](https://img.shields.io/badge/Legal%20Skills-58-374151)](#)
