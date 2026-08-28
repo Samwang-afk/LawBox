@@ -1,0 +1,29 @@
+.DS_Store
+Thumbs.db
+
+# Local runtime and private materials
+.env
+.env.*
+*.log
+*.tmp
+*.bak
+.cache/
+node_modules/
+__pycache__/
+*.pyc
+
+# Do not publish case files or generated deliverables by accident
+cases/
+matters/
+clients/
+客户材料/
+案卷材料/
+系统记录/
+*.docx
+*.pdf
+*.xlsx
+*.xls
+
+# Original migration backups are intentionally excluded from the open-source repo
+_backups/
+skills/legal/_backups/

@@ -1,0 +1,38 @@
+{
+  "name": "entrustment_risk_notice",
+  "description": "委托合同管理：风险义务告知书。来源于风险义务告知书排版规范，保留原规范 Letter 纸张与宋体二号标题。",
+  "page": {
+    "width_cm": 21.59,
+    "height_cm": 27.94,
+    "orientation": "portrait",
+    "margin_top_cm": 2.00,
+    "margin_bottom_cm": 2.54,
+    "margin_left_cm": 3.17,
+    "margin_right_cm": 3.17,
+    "header_distance_cm": 1.27,
+    "footer_distance_cm": 1.27
+  },
+  "fonts": {
+    "title": {"east_asia": "宋体", "ascii": "Times New Roman", "size_pt": 22, "bold": true},
+    "heading1": {"east_asia": "宋体", "ascii": "Times New Roman", "size_pt": 12, "bold": true},
+    "heading2": {"east_asia": "宋体", "ascii": "Times New Roman", "size_pt": 12, "bold": true},
+    "body": {"east_asia": "宋体", "ascii": "Times New Roman", "size_pt": 12, "bold": false},
+    "meta": {"east_asia": "宋体", "ascii": "Times New Roman", "size_pt": 12, "bold": false},
+    "table": {"east_asia": "宋体", "ascii": "Times New Roman", "size_pt": 10.5, "bold": false},
+    "footer": {"east_asia": "宋体", "ascii": "Times New Roman", "size_pt": 10.5, "bold": false}
+  },
+  "paragraph": {
+    "line_spacing_rule": "multiple",
+    "line_spacing": 1.0,
+    "first_line_indent_pt": 24,
+    "space_before_pt": 0,
+    "space_after_pt": 0
+  },
+  "table": {
+    "border_color": "000000",
+    "header_fill": "F2F2F2",
+    "cell_margin_twip": 120,
+    "line_spacing_pt": 18
+  },
+  "page_number": {"enabled": true, "text_before": "", "text_after": ""}
+}

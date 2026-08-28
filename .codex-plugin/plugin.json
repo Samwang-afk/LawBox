@@ -1,0 +1,38 @@
+{
+  "name": "legal-work-os-core",
+  "version": "1.0.0",
+  "description": "Legal Work OS Core (法律百宝箱 Core): modular Chinese legal workflow skills with lightweight Ludus adversarial review and unified SOP control.",
+  "author": {
+    "name": "Legal Work OS Core Contributors"
+  },
+  "repository": "https://github.com/<YOUR_GITHUB>/legal-work-os-core",
+  "license": "SEE LICENSE",
+  "keywords": [
+    "legal",
+    "law",
+    "china-law",
+    "codex",
+    "skills",
+    "litigation",
+    "contract",
+    "compliance",
+    "ludus-review",
+    "legal-work-os"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Legal Work OS Core（法律百宝箱 Core）",
+    "shortDescription": "Modular Chinese legal workflow skills with lightweight reasoning review",
+    "longDescription": "A modular Legal Work OS for Chinese legal work: professional legal skills execute the work, Ludus adversarial review stress-tests key judgments, unified SOP control manages the task lifecycle, and post-task reflection captures reusable failure lessons.",
+    "developerName": "Legal Work OS Core Contributors",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://github.com/<YOUR_GITHUB>/legal-work-os-core",
+    "defaultPrompt": [
+      "法律工作总控 帮我路由这个法律任务",
+      "合同审查 审核这份合同并输出风险清单",
+      "法律咨询助手 帮我回复这个客户咨询"
+    ],
+    "brandColor": "#7f1d1d"
+  }
+}

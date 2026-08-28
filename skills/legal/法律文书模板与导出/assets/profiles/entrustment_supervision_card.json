@@ -1,0 +1,38 @@
+{
+  "name": "entrustment_supervision_card",
+  "description": "委托合同管理：服务质量监督卡。来源于服务质量监督卡排版规范，A4横向，黑体小三标题、小四信息栏。",
+  "page": {
+    "width_cm": 29.7,
+    "height_cm": 21.0,
+    "orientation": "landscape",
+    "margin_top_cm": 3.18,
+    "margin_bottom_cm": 3.18,
+    "margin_left_cm": 2.54,
+    "margin_right_cm": 2.54,
+    "header_distance_cm": 1.50,
+    "footer_distance_cm": 1.75
+  },
+  "fonts": {
+    "title": {"east_asia": "黑体", "ascii": "黑体", "size_pt": 15, "bold": false},
+    "heading1": {"east_asia": "黑体", "ascii": "黑体", "size_pt": 15, "bold": false},
+    "heading2": {"east_asia": "宋体", "ascii": "宋体", "size_pt": 12, "bold": false},
+    "body": {"east_asia": "宋体", "ascii": "宋体", "size_pt": 12, "bold": false},
+    "meta": {"east_asia": "宋体", "ascii": "宋体", "size_pt": 12, "bold": false},
+    "table": {"east_asia": "楷体_GB2312", "ascii": "楷体_GB2312", "size_pt": 10, "bold": false},
+    "footer": {"east_asia": "宋体", "ascii": "宋体", "size_pt": 10.5, "bold": false}
+  },
+  "paragraph": {
+    "line_spacing_rule": "multiple",
+    "line_spacing": 1.0,
+    "first_line_indent_pt": 6,
+    "space_before_pt": 0,
+    "space_after_pt": 0
+  },
+  "table": {
+    "border_color": "000000",
+    "header_fill": "FFFFFF",
+    "cell_margin_twip": 120,
+    "line_spacing_pt": 14
+  },
+  "page_number": {"enabled": true, "text_before": "", "text_after": ""}
+}
