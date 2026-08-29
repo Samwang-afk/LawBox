@@ -1,6 +1,10 @@
 <div align="center">
 
-<img width="2172" height="724" alt="图片" src="https://github.com/user-attachments/assets/7306d8c7-a504-4c27-babc-b9238be7cb53" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/lawbox-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="assets/lawbox-light.svg">
+  <img width="1825" height="443" alt="LawBox" src="assets/lawbox-light.svg" />
+</picture>
 
 
 ### 一个法律技能，覆盖完整法律工作流。
