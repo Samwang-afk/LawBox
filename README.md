@@ -10,7 +10,7 @@
 
 万物皆插件，越做越聪明的自我进化法律技能内核与框架，同时配备ludus轻量推理增强。
 
-<img src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEaHp5qkuMmiKOMC6tLxRGkbULsyW_RlQACDyYAAmiKmVSEDGUKOYHu9z0E.jpg" alt="BQACAgUAAyEGAASHRsPbAAEaHp5qkuMmiKOMC6tLxRGkbULsyW_RlQACDyYAAmiKmVSEDGUKOYHu9z0E.jpg" />
+
 
 [![核心](https://img.shields.io/badge/核心-v1.0.0-7f1d1d)](#)
 [![法律技能](https://img.shields.io/badge/法律技能-58-374151)](#)
