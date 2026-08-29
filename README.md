@@ -3,9 +3,8 @@
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/lawbox-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="assets/lawbox-light.svg">
-  <img width="1825" height="443" alt="LawBox" src="assets/lawbox-light.svg" />
+  <img width="100%" alt="LawBox" src="assets/lawbox-light.svg" />
 </picture>
-
 
 ### 一个法律技能，覆盖完整法律工作流。
 
