@@ -12,8 +12,9 @@
 
 <p align="center">
   <img
-    src="assets/lawbox-top10.jpg"
+    src="Screenshot_2026-08-29-21-44-29-01_96b26121e545231a3c569311a54cda96.jpg"
     alt="Top 10 CN Legal Skills — LawBox"
+    width="460"
   />
 </p>
 
