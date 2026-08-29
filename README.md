@@ -10,7 +10,7 @@
 
 万物皆插件，越做越聪明的自我进化法律技能内核与框架，同时配备ludus轻量推理增强。
 
-**LawBox 负责把工作跑起来。**  **Ludus 负责挑战结论和SOP自我进化。**  **其余一切，皆为插件。**
+![BQACAgUAAyEGAASHRsPbAAEaHp5qkuMmiKOMC6tLxRGkbULsyW_RlQACDyYAAmiKmVSEDGUKOYHu9z0E.jpg](https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEaHp5qkuMmiKOMC6tLxRGkbULsyW_RlQACDyYAAmiKmVSEDGUKOYHu9z0E.jpg)
 
 [![核心](https://img.shields.io/badge/核心-v1.0.0-7f1d1d)](#)
 [![法律技能](https://img.shields.io/badge/法律技能-58-374151)](#)
