@@ -12,7 +12,7 @@
 
 <p align="center">
   <img
-    src="https://github.com/user-attachments/assets/6de19b90-8caa-453d-84a8-d8cd764c111b"
+    src="assets/lawbox-top10.jpg"
     alt="Top 10 CN Legal Skills — LawBox"
   />
 </p>
