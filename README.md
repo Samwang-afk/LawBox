@@ -12,8 +12,8 @@
 
 <p align="center">
   <img
-    src="assets/lawbox-top10-cn-legal-skills-v2.svg"
-    alt="Top 10 CN Legal Skills"
+    src="https://github.com/user-attachments/assets/6de19b90-8caa-453d-84a8-d8cd764c111b"
+    alt="Top 10 CN Legal Skills — LawBox"
   />
 </p>
 
