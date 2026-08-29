@@ -12,8 +12,8 @@
 
 <p align="center">
   <img
-    src="https://img.remit.ee/api/file/BQACAgUAAyEGAASHRsPbAAEaHp5qkuMmiKOMC6tLxRGkbULsyW_RlQACDyYAAmiKmVSEDGUKOYHu9z0E.jpg"
-    alt="LawBox"
+    src="assets/lawbox-top10-cn-legal-skills.svg"
+    alt="Top 10 CN Legal Skills"
   />
 </p>
 
