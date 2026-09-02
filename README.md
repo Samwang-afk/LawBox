@@ -10,13 +10,7 @@
 
 万物皆插件，越做越聪明的自我进化法律技能内核与框架，同时配备ludus轻量推理增强。
 
-<p align="center">
-  <img
-    src="Screenshot_2026-08-29-21-44-29-01_96b26121e545231a3c569311a54cda96.jpg"
-    alt="Top 10 CN Legal Skills — LawBox"
-    width="460"
-  />
-</p>
+#### #3 Star Of CN Agent Legal Skills
 
 [![核心](https://img.shields.io/badge/核心-v1.0.0-7f1d1d)](#)
 [![法律技能](https://img.shields.io/badge/法律技能-58-374151)](#)
